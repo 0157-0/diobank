@@ -13,29 +13,6 @@ Conceitos avançados de Node.js com Typescript;
 Stack
  Typescript
 
-
-
-Como rodar o projeto ⚙️ 🧪
-
-Clone o repositório;
-
-Instalar node.js >= 16.15.1 LTS
-
-Instalar globalmente o Typescript >= 4.7.1  npm i -g typescript
-
-inicializar node npm init --y
-
-4.1. Instalar dependências de desenvolvimento:  npm i -D typescript  npm i -D ts-node-dev
-
-inicializar o typescript:  npx tsc --init
-
-adicionar ao arquivo package.json , objeto scripts :  "dev": "ts-node-dev app.ts"
-
-Executar app  npm run dev
-
-
-
-
 Desafios desta etapa 🎯
 
  Implementar os métodos (deposit) e saque (withdraw) na classe DioAccount;
